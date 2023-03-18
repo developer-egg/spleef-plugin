@@ -21,7 +21,7 @@ public class GameManager {
 
         // may have to get and set item meta in two different lines
         gameShovel.getItemMeta().setDisplayName(ChatColor.DARK_GRAY + "Wooden Spoon");
-        gameShovel.getItemMeta().setLore(Collections.singletonList(ChatColor.MAGIC + "Is it really just a wooden spoon?"));
+        gameShovel.getItemMeta().setLore(Collections.singletonList(ChatColor.DARK_PURPLE + "Is it really just a wooden spoon?"));
     }
 
     private GameState getGameState() {

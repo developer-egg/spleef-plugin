@@ -9,5 +9,5 @@ commands:
     usage: "Usage: /<command>"
   set:
     description: sets the location of the lobby or arena
-    usage: "Usage: /<command [lobby|arena]"
+    usage: "Usage: /<command> [lobby | arena]"
 
