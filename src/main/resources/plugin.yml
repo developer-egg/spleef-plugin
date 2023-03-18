@@ -1,0 +1,13 @@
+name: spleef-plugin-2
+version: '${project.version}'
+main: me.eggerga.spleefplugin2.SpleefPlugin
+api-version: 1.19
+
+commands:
+  start:
+    description: starts the game
+    usage: "Usage: /<command>"
+  set:
+    description: sets the location of the lobby or arena
+    usage: "Usage: /<command [lobby|arena]"
+
